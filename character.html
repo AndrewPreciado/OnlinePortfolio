@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+	<html>
+
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Andrew's Portfolio</title>
+
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="shortcut icon" href="images/adrew.jpg"/>
+
+	</head>
+	<body>
+
+	<div class="headerColor">
+	<header>
+			<div>
+				<img class="logo2" src="images/banner2.png" alt="logo" />
+			</div>
+			<!-- <div>
+				<img class="aboutme2" src="images/banner2.png" alt="aboutme" />
+			</div> -->
+	</header>
+
+
+	<div class="mysectionSocial">
+		<div class="socialItems">
+				<!-- <div class="contactTitle"> -->
+					<a href="mailto:apdesigns92@gmail.com" target="_blank">
+						<img class="socialIcon" src="images/Gmail2.png">
+					</a>
+				<!-- </div>	 -->
+					<a href="https://www.facebook.com/ADrewAnimated" target="_blank">
+						<img class="socialIcon" src="images/Facebook2.png">
+					</a>
+				
+				
+					<a href="https://twitter.com/Drizzy_ADrew" target="_blank">
+						<img class="socialIcon" src="images/Twitter2.png">
+					</a>
+				
+				
+					<a href="https://www.youtube.com/user/ADreW1264" target="_blank">
+						<img class="socialIcon" src="images/Youtube2.png">
+					</a>
+			
+			
+					<a href="https://www.instagram.com/adrew_animated" target="_blank">
+						<img class="socialIcon" src="images/Instagram2.png">
+					</a>
+			
+				
+					<a href="https://www.linkedin.com/in/andrewpreciado/" target="_blank">
+						<img class="socialIcon" src="images/Linkedin2.png">
+					</a>	
+		</div>
+	</div>
+
+	</div>
+
+		<nav class="desktop-navigation" id="hamburger-navigation">
+			<ul>
+				<li><a class="pageHover" href="index.html"><div>Design</div></a></li>
+				<li><a class="pageHover" href="animation.html">Animation</a></li>
+				<li><a class="Navbar__Link">Illustration</a></li>
+				<li><a class="pageHover" href="about.html">About/Contact</a></li>
+
+				<a href="javascript:void(0);" class="icon hamMenu" onclick="myFunction()">
+    				<i class="fa fa-bars"></i>
+    			</a>
+
+			</ul>
+		</nav>
+		<!--NAV BAR temp-->
+<!-- 		<div class="desktop-navigation">
+		  <nav class="Navbar__Items" id="myTopnav">
+		  	<div class="Navbar__Link">
+		      <a href="index.html">Home</a>
+		    </div>
+		    <div class="Navbar__Link active">
+		      Design
+		    </div>
+		    <div class="Navbar__Link">
+		      <a href="animation.html">Animation</a>
+		    </div>
+		    <div class="Navbar__Link">
+		      <a href="character.html">Character Illustrations</a>
+		    </div>
+		    <div class="Navbar__Link">
+		      <a href="contact.html">Contact</a>
+		    </div>
+		  </nav>
+		</div> -->
+
+<!-- SITE IMAGES (last listed item is SLIDE 1-->
+<div class="mysection">
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(25)">
+			<img src="images/site/malboro.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="Monster" />
+			<div class="overlay">
+				<div class="imageText">Monster</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(24)">
+			<img src="images/site/aristocrat.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="aristocrat" />
+			<div class="overlay">
+				<div class="imageText">Aristocrat</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(23)">
+			<img src="images/site/consoles.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="consoles" />
+			<div class="overlay">
+				<div class="imageText">Game Consoles</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(22)">
+			<img src="images/site/piranhaplant.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="piranhaplant" />
+			<div class="overlay">
+				<div class="imageText">Piranha Plant</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(21)">
+			<img src="images/site/dk_model.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="dk_model" />
+			<div class="overlay">
+				<div class="imageText">Gorilla</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(20)">
+			<img src="images/site/snake.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="snake" />
+			<div class="overlay">
+				<div class="imageText">Mercenary</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(19)">
+			<img src="images/site/fox.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="fox" />
+			<div class="overlay">
+				<div class="imageText">Space Fox</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(18)">
+			<img src="images/site/greninja.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="Frog" />
+			<div class="overlay">
+				<div class="imageText">Frog</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(17)">
+			<img src="images/site/studio.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="Studio Illustration" />
+			<div class="overlay">
+				<div class="imageText">Secular Talk Studio</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(16)">
+			<img src="images/site/spidey.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="Spider-Man" />
+			<div class="overlay">
+				<div class="imageText">Spider-Man</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(15)">
+			<img src="images/site/ridley.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="ridley" />
+			<div class="overlay">
+				<div class="imageText">Dragon</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(14)">
+			<img src="images/site/subzero.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="subzero" />
+			<div class="overlay">
+				<div class="imageText">Ninja</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(13)">
+			<img src="images/site/minions.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="minions" />
+			<div class="overlay">
+				<div class="imageText">Minions</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(12)">
+			<img src="images/site/charizard.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="charizard" />
+			<div class="overlay">
+				<div class="imageText">Fire Dragon</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(11)">
+			<img src="images/site/ken.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="ken" />
+			<div class="overlay">
+				<div class="imageText">Karate Fighter</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(10)">
+			<img src="images/site/link.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="link" />
+			<div class="overlay">
+				<div class="imageText">Swordsman</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(9)">
+			<img src="images/site/turtles.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="turtles" />
+			<div class="overlay">
+				<div class="imageText">Turtles</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(8)">
+			<img src="images/site/gamepresident.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="gamepresident" />
+			<div class="overlay">
+				<div class="imageText">2012 Game Unity Poster</div>
+				<div class="imageSoftwareText">(Illustrator & Photoshop)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(7)">
+			<img src="images/site/zelda.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="Princess" />
+			<div class="overlay">
+				<div class="imageText">Elf Princess</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(6)">
+			<img src="images/site/ryu.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="ryu" />
+			<div class="overlay">
+				<div class="imageText">Karate Fighter</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(5)">
+			<img src="images/site/cloud.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="cloud" />
+			<div class="overlay">
+				<div class="imageText">Swordsman</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(4)">
+			<img src="images/site/peach_site.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="princess" />
+			<div class="overlay">
+				<div class="imageText">Princess Toadstool</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(3)">
+			<img src="images/site/bowser.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="bowser" />
+			<div class="overlay">
+				<div class="imageText">Koopa</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(2)">
+			<img src="images/site/mario_site.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="mario" />
+			<div class="overlay">
+				<div class="imageText">Mario</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<div class="artworkContainer" onclick="openModal();currentSlide(1)">
+			<img src="images/site/me.jpg" class="portfolioItem hover-shadow hoverText" 
+			alt="personal avatar" />
+			<div class="overlay">
+				<div class="imageText">Personal Avatar & Arm Assetss</div>
+				<div class="imageSoftwareText">(Illustrator)</div>
+			</div>
+		</div>	
+
+		<!-- <img src="images/site/me.jpg" class="hover-shadow portfolioItem" onclick="openModal();currentSlide(1)"> -->
+			
+</div>
+
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+
+		  	<!-- MODAL ITEM 1 -->
+		  	<div class="mySlides">
+		      <img src="images/modal/me.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Personal Avatar
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/mario_modal.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Mario
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/bowser.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Koopa
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/peach_modal.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Princess Toadstool
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/cloud.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Swordsman
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/ryu.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Karate Fighter
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/zelda.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Elf Princess
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/gamepresident.png" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	2012 Game Unity Poster
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/turtles.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Turtles
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/link.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Swordsman
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/ken.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Karate Fighter
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/charizard.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Fire Dragon
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/minions.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Minions
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/subzero.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Ninja
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/ridley.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Dragon
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/spidey.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Spider-Man
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/studio.png" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Secular Talk Illustrated Studio
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div>
+
+		    <div class="mySlides">
+		      <img src="images/modal/greninja.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Frog
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/fox.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Space Fox
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div>
+
+		    <div class="mySlides">
+		      <img src="images/modal/snake.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Mercenary
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/dk_model.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Gorilla Model
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/piranhaplant.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Piranha Planet Character Model
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/consoles.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Game Consoles
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/aristocrat.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Aristocrat
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+
+		    <div class="mySlides">
+		      <img src="images/modal/malboro.jpg" style="width:100%">
+		      <div class="portfolioDescrip">
+		      	Monster
+		      </div>
+		      <div class="softwareDescrip">Adobe Illustrator</div>
+		    </div> 
+		    
+
+		    <!-- Next/previous controls -->
+		    <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+		    <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+
+		    <!-- Caption text -->
+		    <div class="caption-container">
+		      <p id="caption"></p>
+		    </div>
+
+		  </div>
+		</div>
+
+		<div>
+			<button class="topBtn" onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+		</div>
+
+		<hr>
+		<div class="footer">
+		  <p>&copy 2020 Andrew Preciado</p>
+		</div>
+		<br>
+
+			<!-- JAVASCRIPT -->
+			<script>
+			function topFunction() {
+  				document.body.scrollTop = 0;
+  				document.documentElement.scrollTop = 0;
+			}
+
+			//THE MODAL
+				// Open the Modal
+				function openModal() {
+				  document.getElementById('myModal').style.display = "block";
+				}
+
+				// Close the Modal
+				function closeModal() {
+				  document.getElementById('myModal').style.display = "none";
+				}
+
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				// Next/previous controls
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				// Thumbnail image controls
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("demo");
+				  var captionText = document.getElementById("caption");
+				  if (n > slides.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				    slides[i].style.display = "none";
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				    dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";
+				  //dots[slideIndex-1].className += " active";
+				  //captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+
+				// RESPONSIVE NAV BAR 3 - OLD THAT WORKS!
+				// function classToggle() {
+				//   const navs = document.querySelectorAll('.Navbar__Items')
+				  
+				//   navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+				// }
+				// document.querySelector('.Navbar__Link-toggle')
+				//   .addEventListener('click', classToggle);
+
+				// TEST
+				function myFunction() {
+				    var x = document.getElementById("myTopnav");
+				    if (x.className === "Navbar3") {
+				        x.className += " responsive";
+				    } else {
+				        x.className = "Navbar3";
+				    }
+				}
+				
+			</script>
+
+
+	</body>
+
+	</html>
